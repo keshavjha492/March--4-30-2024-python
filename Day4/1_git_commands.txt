@@ -1,0 +1,55 @@
+# What if there was no version control system?
+=> If there was no VCS then we would have to copy/paste the codes or use google drives for code sharing
+
+# Advantages of using version control system (VCS)
+=> Tracks the history of your entire codebase
+=> It helps to collaborate in a team
+=> Maintain the code version
+
+# Version control Systems => git, mercurial, google vcs
+
+# We should also keep our code somewhere in the cloud. It would be if the cloud supports git
+# That's why we use GitHub
+
+
+# Git Commands
+1. git config --global user.name username
+    => Sets the global git username
+2. git config --global user.email email
+    => Sets the global git email
+
+3. git config --global user.name
+    => Checks whether the username is set or not
+4. git config --global user.email
+    => Checks whether the email is set or not
+
+
+# In git the project folder is called git repository (repo)
+
+1. git init
+    => Initializes a repo in local
+
+2. git add .
+    => adds all the changes to the staging area
+
+# If you do not want to push any file or folder to github then mention those files or folder in ".gitignore"
+
+3. git commit -m "commit message"
+
+4. git branch -M main
+    => Changes the master branch to main
+
+5. git push -u origin <branch_name>
+
+6. ssh-keygen
+    => Generates an SSH public/private key-pair
+    => Paste the public key to the Github settings
+
+7. git remote add origin <ssh-link>
+    => adds a remote of name "origin"
+
+8. git remote -v
+    => lists all the remote links
+
+9. git remote remove origin
+    => Removes the remote link
