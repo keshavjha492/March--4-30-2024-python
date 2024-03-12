@@ -53,3 +53,6 @@
 
 9. git remote remove origin
     => Removes the remote link
+
+10. git status
+    => gives the status of current file and folder.
