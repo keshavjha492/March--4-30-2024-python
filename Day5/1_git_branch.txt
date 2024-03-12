@@ -12,3 +12,6 @@
 
 5. git merge <branch_name>
     => Merges the changes from <branch_name> to the current branch
+
+6. git pull origin main / git pull
+    => this helps to pull the data from Github
