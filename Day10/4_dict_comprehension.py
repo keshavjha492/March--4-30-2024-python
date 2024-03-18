@@ -15,3 +15,7 @@ print(result)  # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 
 result = {i: i ** 2 for i in range(1, 6)}  # dict comprehension
+
+
+result ={i : i for i in range(1,5)}
+print(result)
