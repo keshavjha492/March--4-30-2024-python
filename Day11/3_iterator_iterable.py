@@ -1,5 +1,5 @@
 # iterable => sequence of data which can be used with for loop
-# iterables are the objects from which we can obtain iterator object
+# iterables are the objects from which we can obtain iterator object # can use next protocol
 
 vowels = ["a", "e", "i", "o", "u"]  # => iterable
 iter_obj = iter(vowels)  # iterator object
