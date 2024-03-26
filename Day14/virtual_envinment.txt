@@ -1,0 +1,12 @@
+1. python -m venv venv
+    => Creates a virtual environment with name "venv"
+
+2. For Windows:
+    In CMD: venv\Scripts\activate
+    In Powershell: ./venv/Scripts/activate
+
+   For Linux and Mac:
+   source venv/bin/activate
+
+3. pip install <python_package>
+4. pip list / pip freeze
