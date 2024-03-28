@@ -55,4 +55,4 @@
     => Removes the remote link
 
 10. git status
-    => gives the status of current file and folder.
+    => gives the status of current file and folder
