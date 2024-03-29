@@ -13,7 +13,7 @@ class A:
 
 
 class B(A):
-   y = 2
+    y = 2
 
 
 obj = B()
@@ -86,3 +86,4 @@ print(obj.x)  # 12
 
 # Order of accessing the attributes in inheritance is called MRO (Method resolution Order)
 print(E.mro())
+
