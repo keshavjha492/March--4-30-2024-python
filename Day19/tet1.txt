@@ -1,0 +1,2 @@
+this is the as write and read mode
+this is a new line of the append

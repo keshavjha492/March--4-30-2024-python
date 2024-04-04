@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Ram",
+    "age": 20,
+    "address": "KTM"
+  },
+  {
+    "name": "Shyam",
+    "age": 21,
+    "address": "PKR"
+  },
+  {
+    "name": "Alex",
+    "age": 22,
+    "address": "LTP"
+  },
+  {
+    "name": "Jon",
+    "age": 23,
+    "address": "BKT"
+  }
+]
