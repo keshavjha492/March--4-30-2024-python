@@ -22,9 +22,13 @@ def main():
         count = read_students()
         main() if count else exit_message()
     elif choice == "u":
-        update_students()
+        student_id = input("Enter the student id ")
+        count = update_students(student_id)
+        main() if count else exit_message()
     elif choice =="d":
-        delete_students()
+        student_id = input("Enter the student id ")
+        count = delete_students(student_id)
+        main() if count else exit_message()
     else:
         exit_message()
         

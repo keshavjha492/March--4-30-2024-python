@@ -23,5 +23,5 @@ def create_students():
             data= json.dumps(students, indent=2)
             fp.write(data)
     print("students added successfully")
-    count = input("do you want to continue? (y/n)")
+    count = input("Do you want to continue? (y/n)")
     return True if count.lower=="y" else False

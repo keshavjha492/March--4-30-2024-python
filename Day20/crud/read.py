@@ -1,12 +1,15 @@
 import json
-filename="students.json"
+filename = "students.json"
 
-def read_student(student_id):
-    id = input("enter the id you want to search")
+
+def read_students(student_id):
     with open(filename, 'r') as fp:
         students = json.loads(fp.read())
-        for students in students:
-            if students["id"]==id:
-                print(students)
-    count =input("do you want to continue? (Y/N)")
+    student = list(filter(lambda x: x["id"] == student_id, students))
+    if student:
+        student = student[0]
+        print(student)
+    else:
+        print("No matching student id")
+    count = input("Do you want to continue?(y/n) ")
     return True if count.lower() == "y" else False
