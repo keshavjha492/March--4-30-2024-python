@@ -1,23 +1,20 @@
 import json
+
+
 filename = "students.json"
 
 
-def update_students(student_id):
+def update_students():
+    id = input("Enter student id ")
+    key = input("Enter info you want to change ")
+    value = input(f"Enter the new {key} ")
     with open(filename, "r+") as fp:
-        students = json.loads(fp.read())  # [{}, {}, {"id": 1, "name": "Jon", "address": "KTM"}]
-        student = list(filter(lambda x: x['id'] == student_id, students))
-        if student:
-            student = student[0]  # {"id": 1, "name": "Jon", "address": "KTM"}
-            key = input("Enter the info you want to update ")  # name
-            if key.lower() not in ["name", "age", "address"]:
-                print("Invalid User Info")
-            else:
-                value = input("Enter the new value ")  # Jane
+        students = json.loads(fp.read())
+        for student in students:
+            if student["id"] == id:
                 student[key] = value
-                fp.seek(0)
-                fp.write(json.dumps(students, indent=2))
-                print("Student Updated Successfully !!")
-        else:
-            print("Please enter a valid student ID")
-    count = input("Do you want to continue?(y/n) ")
-    return True if count.lower() == "y" else False
+        fp.seek(0)
+        fp.write(json.dumps(students, indent=2))
+    print("Student info updated successfully !!")
+    count = input("Do you want to continue? (y/n)")
+    return True if count.lower=="y" else False
