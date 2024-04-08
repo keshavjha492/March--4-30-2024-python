@@ -19,8 +19,8 @@ class DjangoUserCreate:
         self.user = "XYZ"
 
 
-class MyUserCreate(DjangoUserCreate):
-    def create_user(self):
-        super().create_user()
-        send_email(self.user)
-        pass
+# class MyUserCreate(DjangoUserCreate):
+#     def create_user(self):
+#         super().create_user()
+#         send_email(self.user)
+#         pass
