@@ -1,0 +1,7 @@
+# Module is a python file inside a package
+# Package is a collection of modules with __init__.py file.
+# Collection of packages is a library (E.g pandas, Django)
+
+# We install python packages from PyPI
+# pip (python package manager)
+# pip install package_name  (Global and venv)
