@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jon",
+    "address": "ktm",
+    "mark": 8
+  },
+  {
+    "name": "Jane",
+    "address": "pkr",
+    "mark": 16
+  },
+  {
+    "name": "Hary",
+    "address": "btw",
+    "mark": 33
+  },
+  {
+    "name": "Alex",
+    "address": "pkr",
+    "mark": 92
+  }
+]
